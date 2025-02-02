@@ -1,8 +1,8 @@
 from scrape import scrape_website, extract_body_content, clean_body_content, get_price_from_content
 from product import getProductName , findUrls
 def main():
-    # urls = findUrls("product name")
-    print(getProductName());
+    urls = findUrls("shampo sanslik")
+    # print(getProductName());
     # print("Scraping webpage...")
     # html_content = scrape_website(url)
     # body_content = extract_body_content(html_content)
